@@ -9,13 +9,13 @@ function App() {
   return (
     <>
         <div className="main">
-          <form className='main2' onSubmit={}>
-            <label for="name">First Name:</label>
-            <input type="text" id="fname" name="fname" required />
-            <label for="name">Last Name:</label>
-            <input type="text" id="lname" name="lname" required />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+          <form className='main2' onSubmit={handleSumbit(onSubmit)}>
+            <label>First Name:</label>
+            <input {...register("firstname")} />
+            <label>Last Name:</label>
+            <input {...register("lastname")} />
+            <label>Email:</label>
+            <input {...register("email")} />
             <input type="submit" value="Submit" />
           </form>
         </div>

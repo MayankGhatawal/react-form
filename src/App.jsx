@@ -51,7 +51,7 @@ const App = () => {
       </div>
 
       <button type="submit">Submit</button>
-      <p>:- if you can check your fill data so please fill this form and check this on alert tag</p>
+      <p>if you can check your fill data so please fill this form and check this on alert tag</p>
     </form>
     </div>
     </div>

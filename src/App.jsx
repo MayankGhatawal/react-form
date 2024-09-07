@@ -1,7 +1,8 @@
+import { useForm, SubmitHandler } from "react-hook-form"
 import './App.css'
 
 function App() {
-  useForm()
+  const{register, handleSumbit} = useForm();
 
   return (
     <>

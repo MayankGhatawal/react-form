@@ -41,4 +41,18 @@
 .main2 p{
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.main2 input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main2 label{
+  font-family: cursive;
+  
 }

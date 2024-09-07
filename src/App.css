@@ -4,7 +4,8 @@
   box-sizing: none;
 }
 
-body {
+main {
   font-family: Arial, sans-serif;
-  background-color: #302828;
+  background-color: #1c0a23;
+  color: #ffffff;
 }

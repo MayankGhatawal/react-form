@@ -2,7 +2,6 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const App = () => {
-  // Initialize useForm hook
   const {
     register, handleSubmit,
     formState: { errors },

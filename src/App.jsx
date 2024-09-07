@@ -1,4 +1,3 @@
-import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const App = () => {
@@ -12,6 +11,9 @@ const App = () => {
   };
 
   return (
+    <>
+    <div className="main">
+      <div className="main2">
     <form onSubmit={handleSubmit(onSubmit)}>
       <div>
         <label>Name:</label>
@@ -50,6 +52,9 @@ const App = () => {
       <button type="submit">Submit</button>
       <p>:- if you can check your fill data so please fill this form and check this on alert tag</p>
     </form>
+    </div>
+    </div>
+    </>  
   );
 };
 
